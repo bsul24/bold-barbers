@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>Bold Barbers</title>
+    <title>Select Salon</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -22,7 +22,7 @@
     <div id="page-wrapper">
       <!-- Header -->
       <header id="header" class="alt">
-        <h1><a href="index.html">Bold Barbers</a></h1>
+        <h1><a href="index.html">Select Salon</a></h1>
         <nav id="nav">
           <ul>
             <li class="special">
@@ -30,9 +30,9 @@
               <div id="menu">
                 <ul>
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="generic.html">About Us</a></li>
-                  <li><a href="elements.html">The Team</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#two">About Us</a></li>
+                  <li><a href="team.html">The Team</a></li>
+                  <li><a href="#footer">Contact Us</a></li>
                 </ul>
               </div>
             </li>
@@ -43,7 +43,7 @@
       <!-- Banner -->
       <section id="banner">
         <div class="inner">
-          <h2>Bold Barbers</h2>
+          <h2>Select Salon</h2>
           <p>Phoenix</p>
           <ul class="actions special">
             <li><a href="#" class="button primary">Book Now</a></li>
@@ -53,9 +53,9 @@
       </section>
 
       <!-- One -->
-      <!-- <section id="one" class="wrapper style1 special">
+      <section id="one" class="wrapper style1 special">
         <div class="inner">
-          <header class="major">
+          <!-- <header class="major">
             <h2>About the shop</h2>
             <p>
               Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
@@ -63,31 +63,40 @@
               fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
               ullamcorper.
             </p>
-          </header>
+          </header> -->
           <ul class="icons major">
             <li>
-              <span class="icon fa-gem major style1"
-                ><span class="label">Lorem</span></span
-              >
+              <img src="./images/quality-icon-01.png" alt="Stylist Icon" />
+              <h4>Expert Beauticians</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi, consequatur!
+              </p>
             </li>
             <li>
-              <span class="icon fa-heart major style2"
-                ><span class="label">Ipsum</span></span
-              >
+              <img src="./images/quality-icon-02.png" alt="Stylist Icon" />
+              <h4>Quality Services</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi, consequatur!
+              </p>
             </li>
             <li>
-              <span class="icon solid fa-code major style3"
-                ><span class="label">Dolor</span></span
-              >
+              <img src="./images/quality-icon-03.png" alt="Stylist Icon" />
+              <h4>Beauty Products</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi, consequatur!
+              </p>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Two -->
       <section id="two" class="wrapper alt style2">
         <section class="spotlight">
-          <div class="image"><img src="images/pic01.jpg" alt="" /></div>
+          <div class="image"><img src="images/salonChairs.jpg" alt="" /></div>
           <div class="content">
             <h2>
               About<br />
@@ -100,7 +109,9 @@
           </div>
         </section>
         <section class="spotlight">
-          <div class="image"><img src="images/pic02.jpg" alt="" /></div>
+          <div class="image">
+            <img src="images/hairWashChairs.jpg" alt="" />
+          </div>
           <div class="content">
             <h2>
               Shop<br />
@@ -113,7 +124,7 @@
           </div>
         </section>
         <section class="spotlight">
-          <div class="image"><img src="images/pic03.jpg" alt="" /></div>
+          <div class="image"><img src="images/salonTeam.jpg" alt="" /></div>
           <div class="content">
             <h2>
               Meet<br />
@@ -131,56 +142,31 @@
       <section id="three" class="wrapper style3 special">
         <div class="inner">
           <header class="major">
-            <h2>Accumsan mus tortor nunc aliquet</h2>
-            <p>
-              Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-              eleifend<br />
-              fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-              ullamcorper.
-            </p>
+            <h2>Our Services</h2>
+            <p>Best prices and treatment in the Valley!</p>
           </header>
           <ul class="features">
-            <li class="icon fa-paper-plane">
-              <h3>Arcu accumsan</h3>
-              <p>
-                Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-                tincidunt nullam amet leo Aenean ligula consequat consequat.
-              </p>
+            <li class="icon fa-bookmark">
+              <h3>Cuts & Styling</h3>
+              <p>Barber Cut: $40</p>
+              <p>Long and thick cut: $70</p>
+              <p>Blowdry and style: $45</p>
             </li>
-            <li class="icon solid fa-laptop">
-              <h3>Ac Augue Eget</h3>
-              <p>
-                Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-                tincidunt nullam amet leo Aenean ligula consequat consequat.
-              </p>
+
+            <li class="icon fa-bookmark">
+              <h3>Treatments</h3>
+              <p>Hair Treatments: $10-$55</p>
+              <p>Brazilian Blowout: $200</p>
             </li>
-            <li class="icon solid fa-code">
-              <h3>Mus Scelerisque</h3>
-              <p>
-                Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-                tincidunt nullam amet leo Aenean ligula consequat consequat.
-              </p>
+            <li class="icon fa-bookmark">
+              <h3>Color & Highlights</h3>
+              <p>All Over Color: $95</p>
+              <p>Full Highlight: $150</p>
+              <p>Maintenance Toner: $40</p>
             </li>
-            <li class="icon solid fa-headphones-alt">
-              <h3>Mauris Imperdiet</h3>
-              <p>
-                Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-                tincidunt nullam amet leo Aenean ligula consequat consequat.
-              </p>
-            </li>
-            <li class="icon fa-heart">
-              <h3>Aenean Primis</h3>
-              <p>
-                Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-                tincidunt nullam amet leo Aenean ligula consequat consequat.
-              </p>
-            </li>
-            <li class="icon fa-flag">
-              <h3>Tortor Ut</h3>
-              <p>
-                Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-                tincidunt nullam amet leo Aenean ligula consequat consequat.
-              </p>
+            <li class="icon fa-bookmark">
+              <h3>Hair Extensions</h3>
+              <p>Extension Install: Price consultation required</p>
             </li>
           </ul>
         </div>
@@ -190,15 +176,14 @@
       <section id="cta" class="wrapper style4">
         <div class="inner">
           <header>
-            <h2>Arcue ut vel commodo</h2>
+            <h2>Book Now</h2>
             <p>
-              Aliquam ut ex ut augue consectetur interdum endrerit imperdiet
-              amet eleifend fringilla.
+              Book with us online or feel free to call the salon for more info.
             </p>
           </header>
           <ul class="actions stacked">
-            <li><a href="#" class="button fit primary">Activate</a></li>
-            <li><a href="#" class="button fit">Learn More</a></li>
+            <li><a href="#" class="button fit primary">Book</a></li>
+            <li><a href="#" class="button fit">(123) 456-7890</a></li>
           </ul>
         </div>
       </section>
@@ -221,19 +206,9 @@
               ><span class="label">Instagram</span></a
             >
           </li>
-          <li>
-            <a href="#" class="icon brands fa-dribbble"
-              ><span class="label">Dribbble</span></a
-            >
-          </li>
-          <li>
-            <a href="#" class="icon solid fa-envelope"
-              ><span class="label">Email</span></a
-            >
-          </li>
         </ul>
         <ul class="copyright">
-          <li>&copy; Untitled</li>
+          <li>&copy; Bill Sullivan</li>
           <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
       </footer>
