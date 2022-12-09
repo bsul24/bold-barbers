@@ -3936,21 +3936,21 @@ body.is-preload #banner:after {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4088,21 +4088,21 @@ body.landing #page-wrapper {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4125,21 +4125,21 @@ body.is-mobile.landing .wrapper.style4 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/handsUp.jpg");
+    url("../../images/handsUp.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4174,4 +4174,9 @@ body.is-mobile.landing #footer {
 
 .wrapper.style5 .stylist p {
   color: #d3d4e4;
+}
+
+.team-bg {
+  background: #099268 !important;
+  background-image: none;
 }
