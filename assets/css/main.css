@@ -2449,6 +2449,11 @@ footer ul.icons.major li {
   #one ul.icons {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+
+  #one ul.icons li {
+    width: 75%;
   }
 }
 
